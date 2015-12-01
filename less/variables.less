@@ -1,0 +1,111 @@
+// Template colour overrides
+body {
+	background-color: @color__body--background;
+}
+
+.company-link {
+	color: @color__companyname--text;
+}
+
+a {
+	color: @color__link--text;
+}
+
+h1 {
+	color: @color__h1--text;
+}
+
+h2 {
+	color: @color__h2--text;
+}
+
+h3 {
+	color: @color__h3--text;
+}
+
+h4 {
+	color: @color__h4--text;
+}
+
+p {
+	color: @color__p--text
+}
+
+button,
+.button {
+	background-color: @color__button--background;
+	color: @color__button--text;
+	&:hover {
+		background-color: @color__button--background--hover;
+		color: @color__button--text--hover;
+	}
+}
+
+.template-header {
+	background-color: @color__header--background;
+}
+
+.template-footer {
+	background-color: @color__footer--background;
+}
+
+.extendednavigation {
+	.navigation-item .item-name {
+		color: @color__navigation--text;
+		&:hover {
+			color: @color__navigation--text--hover;
+		}
+	}
+	&__navigation-item.selected > .item-name {
+		color: @color__navigation--text--selected;
+	}
+}
+
+.feature {
+	&__content-inner-wrap {
+		background-color: @color__feature-content--background;
+	}
+	&__headline {
+		color: @color__feature-headline--text;
+	}
+	&__strapline {
+		color: @color__feature-strapline--text;
+	}
+	&__button {
+		background-color: @color__feature-button--background;
+		color: @color__feature-button--text;
+		&:hover {
+			background-color: @color__feature-button--background--hover;
+		}
+	}
+}
+
+form,
+.form {
+	background-color: @color__form--background;
+	legend,
+	.legend {
+		color: @color__form-legend--text;
+	}
+}
+
+.responsiveslideshow {
+    &__image-title.image-title {
+        color: @color__slideshow-title--text;
+    }
+    &__image-description.image-description {
+        color: @color__slideshow-description--text;
+    }
+}
+
+.socialicons {
+	&__social-link {
+		background-color: @color__socialicons--icon--background;
+		&:before {
+			color: @color__socialicons--icon;
+		}
+		&:hover:before {
+			color: @color__socialicons--icon--hover;
+		}
+	}
+}

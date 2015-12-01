@@ -1,2 +1,4 @@
-# skater
-Basekit V8 Template
+Skater
+=========
+
+BaseKit eCommerce Template

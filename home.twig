@@ -1,0 +1,91 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+{% include "includes/header.twig" %}
+
+<div class="fixed-header-wrap">
+    <div class="fixed-header">
+        <div class="logo-header container">
+            <div class="logo-companyname">
+                    <span class="resize-logo">{{widget('logo', 'sitelogo', {"defaultlogo": asset('images/logo.jpg')})|raw}}</span>
+                    {{widget('companyname', 'companyname', {"business": "profile"})|raw}}
+                <div class="header-extendednavigation">
+                    {{widget('extendednavigation', 'extendednavigation', {})|raw}}
+                </div>
+            </div>
+        </div>
+        <div class="header-line">
+        </div>
+    </div>
+</div>
+
+<!-- Container -->
+
+<div class="page-content">
+    <div class="container">
+        <div class="homepage-slideshow">
+        	{{widget('responsiveslideshow', 'slideshow', {
+        	    'duration':'3',
+        	    'transSpeed': '1000',
+        	    'transType': 'fade',
+        	    'showButtons': false,
+        	    'showBullets': true,
+        	    'allowPause': false,
+        	    'allowLoop': true,
+        	    'images':[
+        	      {
+        	        'imageHeight':'400',
+        	        'imageWidth':'1000',
+        	        'url':asset('/images/slideshow/slideshow-1.jpg'),
+        	        'title':'First slide title',
+        	        'description': 'First slide description'
+        	      },
+        	      {
+        	        'imageHeight':'400',
+        	        'imageWidth':'1000',
+        	        'url':asset('/images/slideshow/slideshow-2.jpg'),
+        	        'title':'Second slide title',
+        	        'description': 'Second slide description'
+        	      },
+        	      {
+        	        'imageHeight':'400',
+        	        'imageWidth':'1000',
+        	        'url':asset('/images/slideshow/slideshow-3.jpg'),
+        	        'title':'Third slide title',
+        	        'description': 'Third slide description'
+        	      }
+        	    ]
+        	})|raw}}
+        </div>
+
+
+        <div class="feature-container clearfix">
+            <div class="feature-right-container">
+                {{widget('feature', 'feature-right', {
+                    "header": "profile",
+                    "strapline": "profile",
+                    "defaultBgImg": asset('images/feature-img1.jpg'),
+                    "positionTopPercentage": "50",
+                    "showBtn": true,
+                    "buttonText": "Lorem Ipsum"
+                })|raw}}
+            </div>
+        </div>
+
+    	<!-- Page Content -->
+    	<section class="template-content">
+
+    		<!-- Main Widet Zone -->
+    	   	{{zone('main')|raw}}
+
+    	</section>
+    	<!-- End Page Content -->
+
+    </div>
+    <!-- End Container -->
+</div>
+
+{% include "includes/footer.twig" %}
+
+{% endblock %}
