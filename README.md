@@ -1,4 +1,4 @@
-Skater
+Skate
 =========
 
 BaseKit eCommerce Template

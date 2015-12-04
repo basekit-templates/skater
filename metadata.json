@@ -1,8 +1,9 @@
 {
-    "name":"skater-v8",
-    "screenshot":"skate-screenshot.jpg",
+    "name":"skater",
+    "thumbnail":"skater.png",
+    "screenshot":"skater-screenshot.jpg",
     "pageTypes":["home"],
-    "templateType":"ecommerce",
+    "templateType":"standard",
     "widgetVersion":2,
     "images":[
         "images/slideshow/slideshow-1.jpg",
