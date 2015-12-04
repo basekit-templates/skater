@@ -1,4 +1,4 @@
-Skate
+Skater
 =========
 
-BaseKit eCommerce Template
+Basekit v8 Template
