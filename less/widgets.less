@@ -659,6 +659,12 @@
 
 .responsiveslideshow .contain .figure {
     background-size: cover;
+    @media @mobile {
+        height: 350px;
+    }
+    @media @mobile {
+        height: 300px;
+    }
 }
 
 // Slideshow Layout
@@ -763,7 +769,7 @@
     top: 50%;
     bottom: 0;
     margin: 0px auto;
-    width: 110px;
+    width: 60px;
     margin-top: -24px;
     height: 50px;
 }
@@ -921,6 +927,9 @@
 .responsiveslideshow__pause-toggle {
     background-color: @color-swatch4;
     color: @color__button--text;
+    @media @mobile {
+        background-color: fade(@color-swatch4, 20%);
+    }
 }
 
 
