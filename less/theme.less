@@ -100,19 +100,25 @@
     }
 }
 
+.shrink .widget__logo {
+    margin-bottom: 0;
+}
+
 .fixed-header .logo-image {
-    -webkit-transition: all 2s;
-    -moz-transition: all 2s;
-    transition: all 2s;
-    height: auto;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    transition: all 0.75s;
+    transform: scale(1);
+    max-height: 300px;
 }
 
 .fixed-header.shrink .logo-image {
-    -webkit-transition: all 2s;
-    -moz-transition: all 2s;
-    transition: all 2;
-    height: 1px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    max-height: 0;
     opacity: 0;
+    transform: scale(0);
 }
 
 // Footer
