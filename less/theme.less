@@ -123,7 +123,9 @@
 
 .page-content {
     .containter {
-        padding-top: 0;
+        @media @mobile {
+            padding-top: 0!important;
+        }
     }
 }
 
