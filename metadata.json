@@ -242,7 +242,7 @@
             "font__feature-strapline--letter-spacing" : "@font-swatch9-letter-spacing"
         },
         "forms": {
-            "color__form--background": "@color-swatch7",
+            "color__form--background": "@color-swatch1",
             "color__form-legend--text": "@color-swatch4"
         },
         "slideshow": {
