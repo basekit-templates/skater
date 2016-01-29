@@ -203,15 +203,28 @@
     }
 
     &.style--highlight {
-        position: absolute;
+        position: absolute!important;
         right: 0;
         width: 49%;
         top: 0;
         height: 98%;
 
+        @media @tablet {
+            position: inherit!important;
+            right: inherit;
+            width: inherit;
+            top: inherit;
+            height: inherit;
+        }
+
         .feature__content-inner-wrap {
             width: 100%;
             height: 100%;
+
+            @media @tablet {
+                width: inherit;
+                height: inherit;
+            }
         }
     }
 }
