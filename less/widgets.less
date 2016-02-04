@@ -11,7 +11,7 @@
 //  2.   #COMPANY NAME
 //  3.   #NAVIGATION
 
-//  4.   #IMAGES
+//  4.   #FEATURE
 //  5.   #GALLERY
 //  6.   #SLIDESHOW
 
@@ -33,6 +33,10 @@
 // 14.   #FACEBOOK
 // 15.   #YELP
 // 16.   #MAP
+// 17.   #IMAGE
+
+
+
 
 
 // -----------------------------
@@ -160,6 +164,8 @@
         color: @color__navigation--text--selected;
     }
 }
+
+
 
 
 // -----------------------------
@@ -362,43 +368,6 @@
 
 .feature-right-container {
     width: 100%;
-}
-
-
-
-
-// -----------------------------
-// 7.  #Image Widget
-// -----------------------------
-
-.imagewidget__figure {
-    margin: 0;
-}
-
-// Image Captions
-// --------------
-
-// Gallery & Slideshow
-.image-title,
-.image-description {
-    color: @color__p--text;
-}
-
-// Image Widget
-
-.imagewidget {
-    .image-title {
-        color: @color__h4--text;
-        font-size: @font-swatch4-font-size;
-        line-height: @font-swatch4-line-height;
-        text-shadow: none;
-    }
-    .image-description {
-        color: @color__p--text;
-        font-size: @font-swatch5-font-size;
-        line-height: @font-swatch5-line-height;
-        text-shadow: none;
-    }
 }
 
 
@@ -1041,6 +1010,7 @@ input.input[type=search],
 
 
 
+
 // -----------------------------
 // 11.  #Twitter Feed
 // -----------------------------
@@ -1139,9 +1109,6 @@ input.input[type=search],
     }
 }
 
-
-
-
 hr.rule {
     width: 100%;
     height: 1px;
@@ -1149,6 +1116,8 @@ hr.rule {
     background-color: darken(@color-swatch7,10%);
     margin: 20px 0px;
 }
+
+
 
 
 // -----------------------------
@@ -1242,6 +1211,8 @@ hr.rule {
 }
 
 
+
+
 // -----------------------------
 // 14. #Facebook
 // -----------------------------
@@ -1285,5 +1256,42 @@ hr.rule {
 
 .bk-map.map.widget__map {
     height: initial;
+}
+
+
+
+
+// -----------------------------
+// 17.  #Image Widget
+// -----------------------------
+
+.imagewidget__figure {
+    margin: 0;
+}
+
+// Image Captions
+// --------------
+
+// Gallery & Slideshow
+.image-title,
+.image-description {
+    color: @color__p--text;
+}
+
+// Image Widget
+
+.imagewidget {
+    .image-title {
+        color: @color__h4--text;
+        font-size: @font-swatch4-font-size;
+        line-height: @font-swatch4-line-height;
+        text-shadow: none;
+    }
+    .image-description {
+        color: @color__p--text;
+        font-size: @font-swatch5-font-size;
+        line-height: @font-swatch5-line-height;
+        text-shadow: none;
+    }
 }
 
