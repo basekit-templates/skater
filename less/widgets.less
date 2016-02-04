@@ -203,8 +203,35 @@
     max-width: 80%;
     vertical-align: middle;
     display: table-cell;
+
     @media @tablet {
         max-width: 100%;
+    }
+
+    &.style--highlight {
+        position: absolute!important;
+        right: 0;
+        width: 49%;
+        top: 0;
+        height: 98%;
+
+        @media @tablet {
+            position: inherit!important;
+            right: inherit;
+            width: inherit;
+            top: inherit;
+            height: inherit;
+        }
+
+        .feature__content-inner-wrap {
+            width: 100%;
+            height: 100%;
+
+            @media @mobile {
+                width: inherit;
+                height: inherit;
+            }
+        }
     }
 }
 
