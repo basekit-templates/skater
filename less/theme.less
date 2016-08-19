@@ -247,9 +247,6 @@ form, .form {
 .form-body {
 	margin: 10px 0 20px;
     position: relative;
-	@media @mobile {
-		margin: 20px;
-	}
 }
 
 // Form Group
@@ -315,7 +312,8 @@ textarea,
 
 .signupform__label,
 .contactform__legend,
-.blogsearch__legend {
+.blogsearch__legend,
+.advancedcontactform__legend {
     border-bottom: 0;
     text-align: center;
     font-size: @font-swatch1-font-size;
@@ -323,6 +321,29 @@ textarea,
     padding: 30px 0 0;
     color: @color__form-legend--text;
 }
+
+
+// Advanced Contact Form
+// ---------------------
+
+.advancedcontactform__form {
+    text-align: center;
+}
+
+.option-item--checkbox {
+    display: block;
+}
+
+.advancedcontactform {
+    .select-wrap {
+        max-width: 50%;
+        margin: 0px auto;
+    }
+}
+
+
+// Signup Form
+// ------------
 
 .signupform__label {
    padding: 30px 0 10px;
