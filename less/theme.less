@@ -38,11 +38,14 @@
 }
 
 .logo-header.container {
-    padding-top: 0px;
+    padding-top: 40px;
+    @media @tablet {
+        padding-top: 0;
+    }
 }
 
 .template-header {
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 9999;
 }
@@ -58,7 +61,10 @@
     text-align: center;
     padding-top: 40px;
     z-index: 9998;
-    min-height: 28%; 
+    min-height: 28%;
+    @media @tablet {
+        padding-top: 20px;
+    } 
 }
 
 .fixed-header-wrap {
