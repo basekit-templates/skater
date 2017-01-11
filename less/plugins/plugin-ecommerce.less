@@ -371,8 +371,7 @@
 .ecombasket__item-details {
     width: 60%;
     @media @tablet {
-        width: 100%;
-        text-align: center
+        width: 60%;
     }
 }
 
@@ -380,6 +379,9 @@
     width: 20%;
     @media @tablet {
         width: 100%;
+    }
+    @media @mobile {
+        width: 20%;
     }
 }
 
@@ -484,9 +486,11 @@
     @media @tablet {
         position: relative;
         top: 0;
+        margin-bottom: 20px;
     }
     @media @mobile {
         min-width: 300px;
+        margin-bottom: 10px;
     }
 }
 
