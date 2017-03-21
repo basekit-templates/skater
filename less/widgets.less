@@ -655,7 +655,6 @@
 }
 
 .responsiveslideshow .contain .figure {
-    background-size: cover;
     @media @mobile {
         height: 350px;
     }
@@ -694,7 +693,6 @@
 
 // Use Background-image Method
 .responsiveslideshow__figure {
-    background-size: cover;
     background-position: center;
     padding-bottom: 40%;
 }
@@ -706,6 +704,13 @@
 
 .homepage-slideshow .responsiveslideshow__image {
     margin: 0px auto;
+}
+
+.responsiveslideshow .cover .figure {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
 }
 
 
