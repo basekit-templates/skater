@@ -204,7 +204,7 @@
             "font__button--font-size" : "@font-swatch7-font-size",
             "font__button--font-weight" : "@font-swatch7-font-weight",
             "font__button--line-height" : "@font-swatch7-line-height",
-            "font__button--letter-spacing" : "@font-swatch7-letter-spacing"      
+            "font__button--letter-spacing" : "@font-swatch7-letter-spacing"
         },
         "header": {
             "color__header--background": "@color__primary"
@@ -220,7 +220,7 @@
             "font__navigation--font-size" : "@font-swatch6-font-size",
             "font__navigation--font-weight" : "@font-swatch6-font-weight",
             "font__navigation--line-height" : "@font-swatch6-line-height",
-            "font__navigation--letter-spacing" : "@font-swatch6-letter-spacing"       
+            "font__navigation--letter-spacing" : "@font-swatch6-letter-spacing"
         },
         "feature": {
             "color__feature-content--background": "@color-swatch7",
@@ -247,7 +247,7 @@
         "slideshow": {
             "color__slideshow-title--text": "@font-swatch7-color",
             "color__slideshow-description--text": "@font-swatch7-color"
-        }, 
+        },
         "socialicons": {
             "color__socialicons--icon": "@color__primary",
             "color__socialicons--icon--hover": "@color-swatch1",
