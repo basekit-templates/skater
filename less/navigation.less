@@ -193,22 +193,22 @@
     }
     .navigation-toggle:hover {
         border: 0;
-        background-color: @color__primary;
+        background-color: @color__button--background--hover;
             &:before {
-                background: @color-swatch7;
-                box-shadow: 0 6px 0 @color-swatch1;
+                background: contrast(@color__button--background, black, white, 43%);
+                box-shadow: 0 6px 0 contrast(@color__button--background, black, white, 43%);
             }
             &:after {
-                background: @color-swatch1;
+                background: contrast(@color__button--background, black, white, 43%);
             }
     }
     // Toggle Button Open State
     .open & {
         &.navigation-toggle {
-            background-color: @color-swatch3;
+            background-color: @color__button--background--hover;
             &:before {
                 margin-top: 21px;
-                background: @color-swatch1;
+                background: contrast(@color__button--background, black, white, 43%);
                 box-shadow: none;
                 -webkit-transform: rotate(45deg);
                 -moz-transform: rotate(45deg);
@@ -227,7 +227,7 @@
                 right: 0;
                 margin-top: 21px;
                 margin-left: -13px;
-                background: @color-swatch1;
+                background: contrast(@color__button--background, black, white, 43%);
                 box-shadow: none;
                 -webkit-transform: rotate(-45deg);
                 -moz-transform: rotate(-45deg);
