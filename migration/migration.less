@@ -41,6 +41,18 @@
 }
 
 
+[data-name="row"] {
+  
+  .advancedcontactform__form-group {
+    text-align: left;
+  }
+  
+  .signupform__form-body {
+    width: 100%;
+  }
+}
+
+
 // Migration styles
 // -----------------------------
 
@@ -161,12 +173,7 @@
 
 // Adds spacing to the section when a widget is before it
 #page-zones__main > .widget:not([data-name="row"]) + [data-name="row"] {
-  margin-bottom: @spacing--other;
   margin-top: @spacing--other;
-
-  &:not(:last-child) {
-       margin-bottom: 0;
-  }
 }
 
 
